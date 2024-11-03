@@ -1,5 +1,5 @@
 # Local .terraform directories
- **/.terraform/*
+.terraform/*
 
 #  Ignore variables files
  *.auto.tfvars
@@ -13,3 +13,32 @@
 #  Ignore CLI configuration files
  .terraformrc
  terraform.rc
+
+*.dll
+*.exe
+.DS_Store
+bin/
+modules-dev/
+/pkg/
+website/.vagrant
+website/.bundle
+website/build
+website/node_modules
+.vagrant/
+*.backup
+*.bak
+*~
+.*.swp
+.idea
+*.iml
+*.test
+
+go.work*
+
+/terraform
+
+website/vendor
+vendor/
+
+# Coverage
+coverage.txt
